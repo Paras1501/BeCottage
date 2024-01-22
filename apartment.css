@@ -1,0 +1,426 @@
+body{
+    margin: 0%;
+}
+@media (max-width:770px){
+    body{
+      margin-right: 0%;
+    }
+}
+ul li{
+    list-style: none;
+}
+.menu_wrapper{
+    /* background-color: #ffffff; */
+    text-decoration: none;
+    height: 40px;
+}
+#cottage3{
+    height: 40px;
+}
+#menu{
+    height: 90px;
+}
+.menuu{
+    color: #444444;
+    font-family: Arial, Helvetica, sans-serif
+}
+.menuu:hover{
+    color:#967d48;
+}
+a:link{
+    text-decoration: none;
+}
+.inlineList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    align-items: center;
+    text-decoration: none;
+}
+@media (max-width:770px){
+    .inlineList{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        align-items: center;
+        text-decoration: none;
+    }
+}
+.container{
+    background-image: url("https://themes.muffingroup.com/be/cottage3/wp-content/uploads/2021/05/cottage3-section-bg2.jpg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-top: -71px;
+}
+@media (max-width:770px){
+    .container{
+        height: 650px;
+        width: 100%;
+        margin-top: 135px;
+    }
+}
+.container2{
+    height: 1590px;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+@media (max-width:770px){
+    .container2{
+        display: flex;
+        flex-direction: column;
+        height: 1590px;
+        margin-top: 239px;
+    }
+}
+.sticky{
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+@media (max-width:770px){
+    .sticky{
+        display: flex;
+        flex-direction: column;
+        height: 800px;
+    }
+}
+.cottage{
+    display: flex;
+}
+@media (max-width:770px){
+    .cottage{
+        width: auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        margin-left: -155px;
+        height: 1063px;
+    }
+}
+.container3{
+    background-image: url(https://themes.muffingroup.com/be/cottage3/wp-content/uploads/2021/05/cottage3-slider-bg3.jpg);
+    height: 700px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+@media (max-width:770px){
+    .container3{
+        display: flex;
+        flex-direction: column;
+        margin-top: 625px;
+    }
+}
+.cottage{
+    margin-top: 77px;
+}
+.text{
+    margin-top: 50px;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+}
+.container5{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 125px;
+}
+@media (max-width:770px){
+    .container5{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+}
+.im1{
+    
+}
+@media (max-width:770px){
+    .im1{
+       text-align: center;
+       /* margin-left: 100px; */
+       /* padding-left: 20px; */
+    }
+}
+.con5pra{
+
+}
+@media (max-width:770px){
+    .con5pra{
+       text-align: center;
+       padding-left: 56px;
+    }
+}
+.itam1:hover{
+    height: 250px;
+    width: 250px;
+}
+.container6{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+@media (max-width:770px){
+    .container6{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        text-align: center;
+    }
+}
+.container7{
+    color: #967d48;
+    margin-bottom: 120px;
+}
+@media (max-width:770px){
+    .container7{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        text-align: center;
+        margin-left: -32px;
+    }
+}
+.cpracon7{
+    text-align: center; 
+    color: black; 
+    font-size: 25px;
+}
+@media (max-width:770px){
+    .cpracon7{
+        text-align: center;
+    }
+}
+.ullicon{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around ;
+    margin-top: 85px; 
+    margin-left: 400px; 
+    margin-right: 400px; 
+    font-size: 30px;
+}
+@media (max-width:770px){
+    .ullicon{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        width: auto;
+        /* margin-right: 10px; */
+        margin-left: 217px;
+        justify-content: space-around;
+    }
+}
+.hmm{
+    color: #000000;
+}
+.container8{
+    background-image: url(https://themes.muffingroup.com/be/cottage3/wp-content/uploads/2021/05/cottage3-slider-bg1.jpg);
+    height: 800px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+#btn{
+    text-align: center;
+    background-color: rgb(150, 125, 72);
+    font-family: "Libre Baskerville";
+    color: rgb(255, 255, 255);
+    line-height: 20px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    font-size: 25px;
+    padding: 8px 23px;
+}
+.btn
+{
+    margin-top: 75px;
+    text-align: center;
+}
+.himg{
+    display: block;
+    text-align: center;
+    justify-content: space-around;
+}
+.itam1:hover{
+    size: 100px;
+}
+#pic1{
+    width: 400px;;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 34px;
+}
+#ppic1{
+    margin-left: 144px;
+}
+h6{
+    margin-left: 130px;
+    color: #967d48;
+    font-size: 16px;
+    line-height: 23px;
+    letter-spacing: 3px;
+    font-family: "Roboto",Helvetica,Arial,sans-serif;
+    margin-bottom: -16px;
+}
+h3.ct{
+    color: #252525;
+    margin-left: 130px;
+    font-size: 40px;
+    line-height: 38px;
+    letter-spacing: 0px;
+    font-family: "Libre Baskerville",Helvetica,Arial,sans-serif;
+    margin-bottom: 15px;
+}
+h4.ct{
+    font-family: "Libre Baskerville",Helvetica,Arial,sans-serif;
+    margin-left: 120px;
+    color: #252525;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    display: block;
+    margin-top: 40px;
+}
+.button_alignalign_center2{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 15px 30px 15px 30px;
+    border-width: 2px;
+    border-radius: 0px;
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+    border-style: solid;
+    width: 200px;
+    margin-left: 40%;
+    margin-block-end: 8.33em;
+    margin-left: 230px;
+    margin-top: 40px;
+
+}
+@media (max-width:770px){
+    .button_alignalign_center{
+        margin-left: 110px;
+    }
+}
+ul.b{
+    list-style-type: square;
+}
+.button_alignalign_center{
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding: 15px 30px 15px 30px;
+    border-width: 2px;
+    border-radius: 0px;
+    color: #000000;
+    background-color: #ffffff;
+    border-color: #000000;
+    border-style: solid;
+    width: 200px;
+    margin-left: 40%;
+    margin-block-end: 8.33em;
+    margin-left: 144px;
+    margin-top: 40px;
+
+}
+#ci1{
+    margin-left: 131px;
+    padding-top: 63px;
+}
+.footer{
+    height: auto;
+    background-color:rgb(238,238,238);
+}
+@media (max-width:770px){
+    .footer{
+        /* margin-top: 3539px; */
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        align-items: center;
+
+    }
+}
+.info{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+}
+@media (max-width:770px){
+    .info{
+        width: auto;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around; 
+        align-items: center;
+    }
+}
+.fc{
+    color: #252525;
+    margin-bottom: 15px ;
+    display: block;
+    font-size: 30px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.logo{
+    border-radius: 10px;
+    size: 30px;
+}
+.fa{
+  padding: 20px;
+  font-size: 25px;
+  width: 11px;
+  text-align: center;
+  text-decoration: none;
+  margin: 25px 5px;
+  border-radius: 100%;
+  margin-left: -5px;
+}
+.fa-facebook {
+    background: #abb8c3;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background:#abb8c3;
+    color: white;
+  }
+  .fa-linkedin {
+    background: #abb8c3;
+    color: white;
+  }
+  .fa-pinterest {
+    background: #abb8c3;
+    color: white;
+  }
+  p.add{
+    /* margin-top: 68px; */
+  }
+  .copyright{
+    margin-left: 105px;
+    margin-top: 5px;
+    margin-top: 92px;
+  }
