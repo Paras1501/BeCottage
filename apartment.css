@@ -3,7 +3,7 @@ body{
 }
 @media (max-width:770px){
     body{
-      margin-right: 0%;
+      margin-right: -28%;
     }
 }
 ul li{
@@ -212,7 +212,7 @@ a:link{
         height: auto;
         width: auto;
         /* margin-right: 10px; */
-        margin-left: 217px;
+        margin-left: 250px;
         justify-content: space-around;
     }
 }
@@ -312,7 +312,7 @@ h4.ct{
 }
 @media (max-width:770px){
     .button_alignalign_center{
-        margin-left: 110px;
+        margin-left: 287px;
     }
 }
 ul.b{
@@ -338,6 +338,11 @@ ul.b{
     margin-left: 144px;
     margin-top: 40px;
 
+}
+@media (max-width:770px){
+    .button_alignalign_center{
+        margin-left: 287px;
+    }
 }
 #ci1{
     margin-left: 131px;
