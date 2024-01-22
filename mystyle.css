@@ -4,7 +4,7 @@ body{
 }
 @media (max-width:770px){
     body{
-      margin-right: 10%;
+      margin-right: -10%;
     }
 }
 ul li{
